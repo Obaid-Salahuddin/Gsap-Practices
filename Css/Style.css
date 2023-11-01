@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Gilory";
+    src: url(/Font/Gilroy-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Gilory";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#navbar {
+  width: 100%;
+  height: 80px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+#navbar img {
+  height: 60px;
+}
+
+#nav-part1 {
+  display: flex;
+  gap: 45px;
+}
+
+#nav-part1 h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+#nav-part2 h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#nav-part2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 10px;
+    font-weight: 600;
+}
+
+
+#main h1 {
+   
+    font-size: 130px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+  }
+
+  #main span{
+    font-size: 26px;
+    background-color: #7E3836;
+    padding: 20px 30px;
+    margin: 0 20px;
+    border-radius: 50px;
+
+  }
+
+  #main span:hover
+  {
+    background-color: #EA8372;
+    cursor:pointer;
+  }
+  #main #left-img{
+    height: 250px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    border-radius: 30px;
+
+    
+
+  }
+
+
+  #main #right-img{
+    height: 240px;
+    width: 160px;
+    position: absolute;
+    bottom: 15%;
+    right: 4%;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: right;
+  }
+
+
+  #main h4{
+
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+  }
