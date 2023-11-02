@@ -66,7 +66,7 @@ gsap.from("#section-sec #card", {
     scrollTrigger: {
         trigger: "#section-sec #card",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start: "top 70%",
         end: "top 20%",
         scrub:2
